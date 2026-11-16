@@ -21,6 +21,19 @@
 > **项目归档说明 (Archived / AS-IS)**
 > 本项目是一个搁置很久的个人半成品弃坑项目，现以现状（AS-IS）归档开源。
 > **这不是一套打磨完善、开箱即用的成熟框架**，内部存在遗留问题、技术债与潜在 Bug。作者**不再提供任何后续更新、新版本适配、Bug 修复或技术答疑**。期待“即拿即用”或零基础的朋友请谨慎下载。
+>
+
+---
+
+### 🌐 English Summary (For International Creators)
+
+**Spirit Journey (魂旅)** is an archived, vanilla Minecraft CTM-RPG game framework built entirely with Datapacks for **Minecraft 1.20.4** (`pack_format 17`, heavily utilizing the macro system introduced in 23w33a). 
+
+- **Scale:** 500+ `.mcfunction` files organized into 13 independent modules (Skills, Boss mechanics, CTM progression, etc.), complete with documentation and a test/tutorial world.
+- **Status:** **Archived / Abandoned (AS-IS).** Originally developed over 3 years for an unreleased CTM map. Expect legacy code and potential bugs. No further updates or technical support will be provided.
+- **Language Note:** All documentation (`docs/`) and in-code comments are written in **Chinese**. However, since Minecraft commands are universal, **we highly recommend feeding the docs and `.mcfunction` files into AI tools (like ChatGPT / Claude)** to translate the logic or migrate specific modules into your own projects.
+- **License:** **CC BY-NC-SA 4.0** — Strictly **Non-Commercial**. You are free to learn from, modify, and redistribute this work for free maps/projects with proper attribution, but any commercial use (paid maps, P2W servers, paid tutorials) is strictly prohibited.
+
 
 ## 📖 项目背景
 
