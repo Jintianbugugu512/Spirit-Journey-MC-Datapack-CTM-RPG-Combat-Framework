@@ -22,17 +22,46 @@
 > 本项目是一个搁置很久的个人半成品弃坑项目，现以现状（AS-IS）归档开源。
 > **这不是一套打磨完善、开箱即用的成熟框架**，内部存在遗留问题、技术债与潜在 Bug。作者**不再提供任何后续更新、新版本适配、Bug 修复或技术答疑**。期待“即拿即用”或零基础的朋友请谨慎下载。
 >
-
+---
 ---
 
-### 🌐 English Summary (For International Creators)
+## 🌐 English Overview (For International Creators)
 
 **Spirit Journey (魂旅)** is an archived, vanilla Minecraft CTM-RPG game framework built entirely with Datapacks for **Minecraft 1.20.4** (`pack_format 17`, heavily utilizing the macro system introduced in 23w33a). 
 
-- **Scale:** 500+ `.mcfunction` files organized into 13 independent modules (Skills, Boss mechanics, CTM progression, etc.), complete with documentation and a test/tutorial world.
-- **Status:** **Archived / Abandoned (AS-IS).** Originally developed over 3 years for an unreleased CTM map. Expect legacy code and potential bugs. No further updates or technical support will be provided.
-- **Language Note:** All documentation (`docs/`) and in-code comments are written in **Chinese**. However, since Minecraft commands are universal, **we highly recommend feeding the docs and `.mcfunction` files into AI tools (like ChatGPT / Claude)** to translate the logic or migrate specific modules into your own projects.
-- **License:** **CC BY-NC-SA 4.0** — Strictly **Non-Commercial**. You are free to learn from, modify, and redistribute this work for free maps/projects with proper attribution, but any commercial use (paid maps, P2W servers, paid tutorials) is strictly prohibited.
+* **Scale:** 500+ `.mcfunction` files organized into 13 independent modules, accompanied by module documentation, a functional test world, and basic tutorials.
+* **Status:** **Archived / Abandoned (AS-IS).** Originally developed over a 3-year span for an unreleased CTM map. Expect technical debt, legacy code, and potential bugs.
+
+### ⚠️ Important Notice & Target Audience
+
+1. **NOT for Beginners (Not Out-of-the-Box):**
+   This is an unfinished personal project that has not undergone comprehensive stability testing. Many interfaces are not universally polished, and using it directly to build a map without modification will likely result in bugs. **If you do not have the ability to read, modify, and debug datapacks, we do not recommend downloading this.**
+2. **Who is this for? (What can you do with it?)**
+   * **Experienced CTM-RPG Map Makers:** You can use this as an underlying foundation to modify and reuse, saving you the trouble of building an RPG system from scratch. Alternatively, you can reference specific modules and **use AI tools (e.g., ChatGPT, Claude) to translate and migrate them into your own datapack**.
+   * **Datapack Learners & Researchers:** Ideal for studying how vanilla datapacks can implement RPG skill systems, Boss mechanics, and CTM progression workflows.
+3. **Language Note (How to read the docs):**
+   All documentation (`docs/`), in-code comments, and the test world are written in **Chinese**. However, since Minecraft command syntax is universal, **feeding the markdown docs and `.mcfunction` files into an AI assistant** will easily bridge the language gap and help you extract the logic.
+4. **No Maintenance or Support:**
+   This project is permanently archived. The author will **not** fix bugs, update to newer versions, accept feature requests, or provide technical Q&A. You are on your own for troubleshooting—downloading means you acknowledge and accept this.
+5. **Version Compatibility:**
+   Developed and tested strictly on **Minecraft 1.20.4**. You may attempt to port it to higher versions on your own, but full functionality is not guaranteed.
+
+### 📜 License (CC BY-NC-SA 4.0)
+* **Strictly Non-Commercial:** Any form of commercial use (paid maps, paid modpacks, P2W/monetized servers, paid tutorials, etc.) is **strictly prohibited**.
+* You are free to modify, redistribute, and publish maps based on this framework for non-commercial purposes without asking for permission—just **credit the original author** and distribute your derivative works under the **same license (CC BY-NC-SA 4.0)**.
+
+---
+
+## 使用须知
+
+1. **不适合零基础直接上手** 这是个人半成品弃坑项目，没有做全面的稳定性测试，很多接口通用性一般，直接拿来做地图很容易遇到各类 bug。如果你不具备数据包阅读、修改、排错的能力，不建议下载使用。
+2. **适合的人群**
+
+- 有数据包基础，准备制作 CTM-RPG 地图的制作者：可以作为底层基础修改复用，省去从零搭建 RPG 系统的工作量,或者参考数据包中的模块,使用AI迁移到你的数据包里；
+- 学习向玩家：用来研究原版数据包实现 RPG 技能、BOSS 机制、CTM 流程的思路，参考代码逻辑。
+
+1. **维护相关** 项目已经归档弃坑，我不会修复 bug、适配新版本，也不接收功能需求、解答相关技术问题。使用中遇到的所有问题，都需要使用者自行修改排查，下载即代表知晓并接受这点。
+2. **版本兼容提醒** 开发与测试环境仅为 1.20.4。更高版本可以自行尝试迁移，但不保证全部功能正常，适配工作需要使用者自己完成。
 
 
 ## 📖 项目背景
